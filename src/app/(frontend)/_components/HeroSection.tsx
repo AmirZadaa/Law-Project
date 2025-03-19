@@ -7,7 +7,7 @@ import Autoplay from 'embla-carousel-autoplay'
 
 const heroData = [
   {
-    heading: 'WAQAR LAW & Co.',
+    heading: 'Amir LAW & Co.',
     details: '"Extremely responsive with practical answers to legal questions." ',
     link: '/about',
     bgImg: Arbitration,
