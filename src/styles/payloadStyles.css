@@ -1,0 +1,16 @@
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+/* @import 'tailwindcss/preflight.css' layer(base); */
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* :root {
+    --theme-elevation-100: #ef6464;
+    --theme-elevation-200: #3763d2;
+}
+
+.card {
+    background-color: var(--theme-elevation-100);
+  border: 1px solid var(--theme-elevation-200);
+  } */
